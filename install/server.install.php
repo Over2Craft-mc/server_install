@@ -25,5 +25,5 @@ foreach ($config['find'] as $findItem) {
     file_put_contents(getcwd() . '/' . $findItem['filename'], $new_file);
 }
 
-system("/bin/chown -R . " . $config['fiesOwner']. " " . getcwd() . '/*');
+system("/bin/chown -R " . $config['fiesOwner']. " " . getcwd() . '/*');
 
