@@ -3,7 +3,7 @@
 $sererName = 'set server name here';
 $discordToken = 'set discord token here';
 $serverPort = 'server port here';
-$serverType = 'paper1.16.4';
+$serverType = 'paper';
 $serverBuild = 'latest';
 
 return [
