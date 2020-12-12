@@ -9,7 +9,7 @@ if (isset($config['server_os']['override_with_file']) && isset($config['server_o
 } else {
 
     switch ($config['server_os']['type']) {
-        case 'paper1.16.4':
+        case 'paper':
             copy(sprintf('https://papermc.io/api/v1/paper/1.16.4/%s/download', $config['server_os']['build']), getcwd() . '/' . $config['server_os']['name'] . '.jar');
             break;
         case 'waterfall':
