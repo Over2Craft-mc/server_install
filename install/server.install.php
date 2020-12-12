@@ -1,6 +1,6 @@
 <?php
 
-$config = require 'install/settings.php';
+$config = require 'settings.php';
 
 chdir(getcwd() . '/..');
 
