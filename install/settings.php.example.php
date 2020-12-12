@@ -24,7 +24,7 @@ return [
         [
             'filename' => 'plugins/DiscordSRV/config.yml',
             'stringToFind' => '/server_install_discord_srv_bot_token/',
-            'replaceWith' => $sererName
+            'replaceWith' => $discordToken
         ],
         [
             'filename' => 'server.properties',
